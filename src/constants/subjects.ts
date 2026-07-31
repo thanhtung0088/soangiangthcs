@@ -1,0 +1,20 @@
+// Danh sách môn học/HĐGD cấp THCS theo Chương trình GDPT 2018 (bắt buộc + tự chọn),
+// dùng cho dropdown chọn môn học ở tất cả 8 luồng soạn giảng.
+export const MON_HOC_THCS: string[] = [
+  'Ngữ văn',
+  'Toán học',
+  'Tiếng Anh',
+  'Giáo dục công dân',
+  'Lịch sử và Địa lí',
+  'Khoa học tự nhiên',
+  'Công nghệ',
+  'Tin học',
+  'Giáo dục thể chất',
+  'Âm nhạc',
+  'Mỹ thuật',
+  'Hoạt động trải nghiệm, hướng nghiệp',
+  'Nội dung giáo dục địa phương',
+  'Tiếng dân tộc thiểu số',
+  'Ngoại ngữ 2',
+  'Giáo dục kỹ năng sống (ngoại khoá)',
+];
