@@ -64,8 +64,8 @@ const HeaderBar: React.FC = () => {
 
         {/* Giữa header */}
         <div className="flex-1 text-center hidden md:block">
-          <p className="font-black text-2xl bg-gradient-to-r from-amber-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent">
-            Chào mừng đã trở lại !
+          <p className="font-black text-4xl bg-gradient-to-r from-amber-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent">
+            CHÀO MỪNG ĐÃ TRỞ LẠI !
           </p>
         </div>
 
