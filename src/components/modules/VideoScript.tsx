@@ -77,7 +77,7 @@ const VideoScript: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                   <li>Bấm nút <b>"Mở Canva Video"</b> ở trên (hoặc vào <a href="https://www.canva.com/video-editor/" target="_blank" rel="noreferrer" className="text-video underline">canva.com/video-editor</a>) → chọn mẫu video ngắn, tỉ lệ 16:9 hoặc 9:16 tuỳ nơi trình chiếu.</li>
                   <li>Với mỗi <b>Cảnh</b> trong kịch bản dưới đây: tạo 1 slide/trang mới trong Canva tương ứng.</li>
                   <li>Gõ đúng nội dung ở mục <b>"Lời thoại / Tiêu đề"</b> vào khung chữ trên trang đó.</li>
-                  <li>Với mục <b>"Mô tả hình ảnh/clip"</b>: vào Canva → thanh công cụ bên trái chọn <b>"Apps" → "Ảnh AI" (Magic Media)</b> → dán mô tả đó vào để Canva tự tạo ảnh/clip minh hoạ, hoặc tìm ảnh/video có sẵn trong kho Canva bằng từ khoá tương tự.</li>
+                  <li>Với mục <b>"Mô tả hình ảnh/clip"</b>: dán mô tả đó vào ô rồi bấm <b>"Tìm kiếm"</b> để Canva tìm ảnh/video có sẵn khớp nội dung (miễn phí). Nút <b>"Tạo"</b> (AI biến ảnh thành video chuyển động) là tính năng <b>Canva Pro trả phí</b> (biểu tượng 👑) - nếu trường bạn đã có Canva for Education thì dùng được miễn phí, nếu chưa thì cứ dùng ảnh tĩnh từ "Tìm kiếm" và bật hiệu ứng Zoom/Pan có sẵn (miễn phí) để ảnh vẫn sinh động như video.</li>
                   <li>Đặt thời lượng từng trang theo đúng số giây ghi ở "Thời lượng" của cảnh đó (nhấp vào trang → kéo thanh thời gian bên dưới).</li>
                   <li>Thêm nhạc nền: <b>"Apps" → "Âm thanh"</b>, chọn nhạc nền phù hợp không lời để không át lời thoại.</li>
                   <li>Xem lại toàn bộ (nút Play), chỉnh hiệu ứng chuyển cảnh nếu cần (kéo thả giữa 2 trang).</li>
